@@ -1,0 +1,161 @@
+h2 {
+  font-family: Calibri;
+  font-size: 25pt;
+  font-style: normal;
+  font-weight: bold;
+  color: RoyalBlue;
+  text-align: center;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.success-registration,
+.validation-text {
+  font-family: Calibri;
+  font-size: 20pt;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  display: none;
+}
+
+.success-registration {
+  color: green;
+}
+
+.validation-text,
+.validation-label {
+  color: red;
+}
+
+.show {
+  display: block;
+}
+
+table {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: white;
+  font-size: 13pt;
+  font-style: normal;
+  font-weight: bold;
+  background-color: RoyalBlue;
+  border: 1px solid navy;
+  border-radius: 5%;
+}
+table.inner {
+  border: 0px;
+}
+
+html {
+  background-image: url("https://img.freepik.com/free-phohttps://img.freepik.com/free-photo/registration-application-paper-form-concept_53876-167141.jpg?w=996&t=st=1666321345~exp=1666321945~hmac=167dcfd062c2e5b62220189869251b4fa49b175e2615863ad28c00a24ea4e314to/sign-up-website-homepage-register_53876-121331.jpg?w=1380&t=st=1666179017~exp=1666179617~hmac=13e420728d28b49dd4eae62eaad12c427299ddf3bb2e814f8e883ba816b0e1e9://img.freepik.com/free-photo/member-log-membership-username-password-concept_53876-167146.jpg?w=1380&t=st=1666041117~exp=1666041717~hmac=be6c30edc5e546161212e477ebe3f05c6fa7c205950322bff8662303845d34a7");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color-burn;
+}
+
+input[type="button"],
+[type="reset"] {
+  color: white;
+  background-color: rgb(97, 201, 97);
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 200px;
+  border-radius: 5rem;
+}
+input[type="button"]:hover,
+[type="reset"]:hover {
+  cursor: pointer;
+  background-color: rgb(58, 160, 58);
+}
+input[type="reset"]:hover {
+  background-color: red;
+}
+input[type="reset"] {
+  background-color: rgb(241, 100, 100);
+}
+input[type="checkbox"] {
+  margin: 8px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+input[type="checkbox"]:checked {
+  margin: 8px;
+  background-color: #2196f3;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+input[type="radio"] {
+  height: 20px;
+  width: 20px;
+  cursor: pointer;
+  color: blue;
+  border: 1px groove blue;
+}
+input[type="text"],
+[type="email"],
+[type="number"],
+textarea {
+  border-radius: 1rem;
+  border: 2px groove blue;
+  padding: 2px;
+  border-collapse: collapse;
+  opacity: 0.8;
+  color: green;
+  font-size: 20px;
+}
+i:valid {
+  color: green;
+}
+i:invalid {
+  color: red;
+}
+
+input[type="text"]:focus,
+[type="email"]:focus,
+[type="number"]:focus,
+textarea:focus {
+  border: 4px solid #543fb1;
+}
+select {
+  color: #0c64ac;
+  font-weight: 700;
+  border-radius: 2rem;
+  opacity: 0.7;
+  padding: 7px;
+  border-collapse: collapse;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+option {
+  background-color: #2086da;
+  opacity: 0.7;
+  color: rgb(243, 216, 180);
+  font-weight: 600;
+  row-gap: 5px;
+}
+option:hover {
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f7eb1;
+  border-radius: 10px;
+  box-shadow: inset 0 0 5px;
+}
+i[class="fa-solid fa-exclamation-circle"] {
+  color: red;
+  visibility: hidden;
+}
+i[class="fa-solid fa-check-circle"] {
+  color: rgb(53, 187, 53);
+  visibility: hidden;
+}
